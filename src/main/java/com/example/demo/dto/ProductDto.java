@@ -14,7 +14,7 @@ public class ProductDto {
     private String code;
     private String description;
 
-    public ProductoDto(Product product){
+    public ProductDto(Product product){
         BeanUtils.copyProperties(product, this);
     }
 }
